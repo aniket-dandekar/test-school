@@ -1,11 +1,6 @@
 import type { Metadata } from "next";
-import { Montserrat, Neucha } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
-
-export const neucha = Neucha({
-  weight: ["400"],
-  subsets: ["latin"],
-});
 
 const inter = Montserrat({
   subsets: ["latin"],

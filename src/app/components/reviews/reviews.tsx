@@ -1,5 +1,10 @@
-import { neucha } from "@/app/layout";
+import { Neucha } from "next/font/google";
 import React from "react";
+
+export const neucha = Neucha({
+  weight: ["400"],
+  subsets: ["latin"],
+});
 
 type Props = {};
 
